@@ -1,15 +1,7 @@
-
-import React from 'react'
-
-
-import Navbar from './components/navbar'
+import HeroSection from "./components/hero-section";
 
 function App() {
-
-
- return(<><React.StrictMode>
-    <Navbar/>
-    </React.StrictMode></>)
+  return <HeroSection />;
 }
 
-export default App
+export default App;

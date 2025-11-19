@@ -1,78 +1,73 @@
 /* =============== NAVBAR WRAPPER =============== */
 .nav-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2000;
-    width: 1920px;
-    height: 85px;
-    opacity: 1;
-    border-width: 1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  width: 1920px;
+  height: 85px;
+  opacity: 1;
+  border-width: 1px;
 }
 
 /* =============== NAV CONTAINER =============== */
 .nav-container {
-    width: 100%;
-    height: 85px;
-    padding: 22px 0px;
-    padding-left: 160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(to right, #f7f7f7, #ffffff, #eef3ef);
-    border-bottom: 3px solid #eeede9;
-    /* yellow line */
-    backdrop-filter: blur(12px);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  height: 85px;
+  padding: 22px 0px;
+  padding-left: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border-bottom: 2px solid #ffffff;
 }
 
 /* =============== LOGO =============== */
 .nav-logo {
-    height: 40px;
-    object-fit: contain;
-    display: block;
+  height: 40px;
+  object-fit: contain;
+  display: block;
 }
 
 /* =============== BUTTON =============== */
 .nav-button {
-    background: #4380FC;
-    /* blue */
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    justify-content: center;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: background 0.3s ease, box-shadow 0.3s ease;
-    width: 181px;
-    height: 45px;
-    border-radius: 12px;
-    padding-top: 12px;
-    padding-right: 24px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    margin-top: 22px;
-    margin-bottom: 22px;
-    margin-right: 160px;
-
-
+  background: #4380fc;
+  /* blue */
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  width: 181px;
+  height: 45px;
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-right: 160px;
 }
 
 /* Hover effect */
 .nav-button:hover {
-    background: #2563eb;
-    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.4);
+  background: #2563eb;
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.4);
 }
 
 /* Arrow icon size */
 .nav-button img {
-    width: 20px;
-    height: 20px;
-    padding-right: 0px;
+  width: 20px;
+  height: 20px;
+  padding-right: 0px;
 }
 
 /* ============================= */
@@ -160,7 +155,7 @@
   }
 
   .nav-button {
-    width: auto;               /* Shrinks naturally */
+    width: auto; /* Shrinks naturally */
     height: 38px;
     padding: 10px 16px;
     margin-right: 0;
