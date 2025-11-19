@@ -1,10 +1,8 @@
-
-import './App.css'
+import "./App.css";
+import HeroSection from "./components/hero-section";
 
 function App() {
-
-
- 
+  return <HeroSection />;
 }
 
-export default App
+export default App;
