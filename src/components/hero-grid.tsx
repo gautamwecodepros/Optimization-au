@@ -1,6 +1,13 @@
 import "./hero-grid.css";
 import middleimg from "../assets/gridMiddleImg.png";
 import bottom from "../assets/gridBotomlast.png";
+import user1 from "../assets/user-1.png"
+import user2 from "../assets/user-2.png"
+import user3 from "../assets/user-3.png"
+import plus from "../assets/plus.png"
+import leftBottom from "../assets/bottom-img.png"
+import userIcon from "../assets/user-icon.png"
+
 
 export default function HeroGrid() {
   return (
@@ -9,27 +16,21 @@ export default function HeroGrid() {
       <div className="left-box">
         <div className="left-top">
           <div className="customer-stats">
-            <h1>432,800</h1>
-            <p>Customers use our AI writer world-wide</p>
+            <p><b style={{ color: "black" }}>432,800</b> Customers use our AI writer world-wide</p>
+          </div>
+          <div className="user-box">
+            <div className="user-circle "><img src={user1} alt="user" /></div>
+            <div className="user-circle "><img src={user2} alt="user" /></div>
+            <div className="user-circle "><img src={user3} alt="user" /></div>
+            <div className="user-circle "><img src={plus} alt="plus" /></div>
           </div>
         </div>
 
         <div className="left-bottom">
-          <div className="authority-scanner">
-            <h2>Authority Scanner</h2>
-            <div className="authority-overview">
-              <div className="owner-activity">
-                <div className="activity-status">
-                  <div className="status-dot"></div>
-                  <span>Owner Activity Scan</span>
-                </div>
-                <span>Strong Credibility</span>
-              </div>
-              <a href="#" className="unlock-link">
-                Unlock full view... based on / and right
-              </a>
-            </div>
-          </div>
+          <div id="absoluteDiv">
+            <img src={userIcon} alt="" style={{ backgroundColor: " #4380FC", padding: "8px", borderRadius: "15px" }} />
+            <div><h1 style={{ fontWeight: 600, fontSize: "11px", }}>New Clients <br />321</h1></div></div>
+          <img src={leftBottom} alt="" style={{ color: "white" }} />
         </div>
       </div>
 
